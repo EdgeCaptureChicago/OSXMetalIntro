@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FF2C1B31BD05E680079193A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF2C1B21BD05E680079193A /* AppDelegate.m */; };
+		1FF2C1B61BD05E680079193A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF2C1B51BD05E680079193A /* main.m */; };
+		1FF2C1B91BD05E680079193A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF2C1B81BD05E680079193A /* ViewController.m */; };
+		1FF2C1BB1BD05E680079193A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FF2C1BA1BD05E680079193A /* Assets.xcassets */; };
+		1FF2C1BE1BD05E680079193A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FF2C1BC1BD05E680079193A /* Main.storyboard */; };
+		1FF2C1E31BD05E9F0079193A /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FF2C1E11BD05E9F0079193A /* Metal.framework */; };
+		1FF2C1E41BD05E9F0079193A /* MetalKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FF2C1E21BD05E9F0079193A /* MetalKit.framework */; };
+		1FF2C1E61BD05EA60079193A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FF2C1E51BD05EA60079193A /* QuartzCore.framework */; };
+		1FF2C1E81BD0650C0079193A /* HelloMetalOSXShaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 1FF2C1E71BD0650C0079193A /* HelloMetalOSXShaders.metal */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1FF2C1AE1BD05E680079193A /* HelloMetalOSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloMetalOSX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FF2C1B11BD05E680079193A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1FF2C1B21BD05E680079193A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1FF2C1B51BD05E680079193A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1FF2C1B71BD05E680079193A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1FF2C1B81BD05E680079193A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1FF2C1BA1BD05E680079193A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1FF2C1BD1BD05E680079193A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1FF2C1BF1BD05E680079193A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FF2C1E11BD05E9F0079193A /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
+		1FF2C1E21BD05E9F0079193A /* MetalKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalKit.framework; path = System/Library/Frameworks/MetalKit.framework; sourceTree = SDKROOT; };
+		1FF2C1E51BD05EA60079193A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		1FF2C1E71BD0650C0079193A /* HelloMetalOSXShaders.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = HelloMetalOSXShaders.metal; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FF2C1AB1BD05E680079193A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FF2C1E61BD05EA60079193A /* QuartzCore.framework in Frameworks */,
+				1FF2C1E31BD05E9F0079193A /* Metal.framework in Frameworks */,
+				1FF2C1E41BD05E9F0079193A /* MetalKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FF2C1A51BD05E680079193A = {
+			isa = PBXGroup;
+			children = (
+				1FF2C1E51BD05EA60079193A /* QuartzCore.framework */,
+				1FF2C1E11BD05E9F0079193A /* Metal.framework */,
+				1FF2C1E21BD05E9F0079193A /* MetalKit.framework */,
+				1FF2C1B01BD05E680079193A /* HelloMetalOSX */,
+				1FF2C1AF1BD05E680079193A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1FF2C1AF1BD05E680079193A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FF2C1AE1BD05E680079193A /* HelloMetalOSX.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1FF2C1B01BD05E680079193A /* HelloMetalOSX */ = {
+			isa = PBXGroup;
+			children = (
+				1FF2C1B11BD05E680079193A /* AppDelegate.h */,
+				1FF2C1B21BD05E680079193A /* AppDelegate.m */,
+				1FF2C1B71BD05E680079193A /* ViewController.h */,
+				1FF2C1B81BD05E680079193A /* ViewController.m */,
+				1FF2C1BA1BD05E680079193A /* Assets.xcassets */,
+				1FF2C1BC1BD05E680079193A /* Main.storyboard */,
+				1FF2C1BF1BD05E680079193A /* Info.plist */,
+				1FF2C1B41BD05E680079193A /* Supporting Files */,
+				1FF2C1E71BD0650C0079193A /* HelloMetalOSXShaders.metal */,
+			);
+			path = HelloMetalOSX;
+			sourceTree = "<group>";
+		};
+		1FF2C1B41BD05E680079193A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1FF2C1B51BD05E680079193A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1FF2C1AD1BD05E680079193A /* HelloMetalOSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FF2C1D81BD05E680079193A /* Build configuration list for PBXNativeTarget "HelloMetalOSX" */;
+			buildPhases = (
+				1FF2C1AA1BD05E680079193A /* Sources */,
+				1FF2C1AB1BD05E680079193A /* Frameworks */,
+				1FF2C1AC1BD05E680079193A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloMetalOSX;
+			productName = HelloMetalOSX;
+			productReference = 1FF2C1AE1BD05E680079193A /* HelloMetalOSX.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1FF2C1A61BD05E680079193A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Edge Capture Software LLC";
+				TargetAttributes = {
+					1FF2C1AD1BD05E680079193A = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 1FF2C1A91BD05E680079193A /* Build configuration list for PBXProject "HelloMetalOSX" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1FF2C1A51BD05E680079193A;
+			productRefGroup = 1FF2C1AF1BD05E680079193A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1FF2C1AD1BD05E680079193A /* HelloMetalOSX */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FF2C1AC1BD05E680079193A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FF2C1BB1BD05E680079193A /* Assets.xcassets in Resources */,
+				1FF2C1BE1BD05E680079193A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FF2C1AA1BD05E680079193A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FF2C1B91BD05E680079193A /* ViewController.m in Sources */,
+				1FF2C1B61BD05E680079193A /* main.m in Sources */,
+				1FF2C1E81BD0650C0079193A /* HelloMetalOSXShaders.metal in Sources */,
+				1FF2C1B31BD05E680079193A /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1FF2C1BC1BD05E680079193A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FF2C1BD1BD05E680079193A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1FF2C1D61BD05E680079193A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1FF2C1D71BD05E680079193A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1FF2C1D91BD05E680079193A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HelloMetalOSX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.edgecapture.HelloMetalOSX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1FF2C1DA1BD05E680079193A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HelloMetalOSX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.edgecapture.HelloMetalOSX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FF2C1A91BD05E680079193A /* Build configuration list for PBXProject "HelloMetalOSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FF2C1D61BD05E680079193A /* Debug */,
+				1FF2C1D71BD05E680079193A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FF2C1D81BD05E680079193A /* Build configuration list for PBXNativeTarget "HelloMetalOSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FF2C1D91BD05E680079193A /* Debug */,
+				1FF2C1DA1BD05E680079193A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1FF2C1A61BD05E680079193A /* Project object */;
+}
